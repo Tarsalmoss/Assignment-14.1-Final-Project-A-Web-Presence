@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>User Validation</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2>User Input Validation</h2>
+<input type="text" id="name" placeholder="Enter your name">
+<button onclick="validate()">Submit</button>
+<p id="message"></p>
+
+
+<a href="index.html" class="back-btn">Back to Landing Page</a>
+
+
+<script>
+function validate() {
+let name = document.getElementById('name').value;
+document.getElementById('message').innerText =
+name.length < 2 ? 'Name too short.' : 'Welcome, ' + name + '!';
+}
+</script>
+</body>
+</html>
