@@ -1,0 +1,58 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #1e3c72, #2a5298);
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+
+header {
+margin-bottom: 30px;
+}
+
+
+.nav-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+}
+
+
+.nav-grid a, .back-btn {
+background: white;
+color: #1e3c72;
+padding: 12px;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+}
+
+
+.nav-grid a:hover, .back-btn:hover {
+background: #f0f0f0;
+}
+
+
+.center-img {
+width: 300px;
+margin: 20px auto;
+}
+
+
+table {
+margin: auto;
+border-collapse: collapse;
+width: 60%;
+}
+
+
+th, td {
+border: 1px solid white;
+padding: 10px;
+}
+
+
+th {
+background-color: rgba(255,255,255,0.2);
+}
